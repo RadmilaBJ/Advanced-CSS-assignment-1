@@ -1,0 +1,23 @@
+a {
+    color: green;
+}
+a:last-of-type {
+    color: red;
+}
+#second-div > p:nth-child(even) {
+    color: red;
+}
+#second-div > p:nth-child(odd) {
+    color: blue;
+}
+#first-div > p:first-of-type::after {
+    content: "-NEW";
+    color: yellow;
+}
+#first-div > p:nth-of-type(2)::after {
+    content: "-NEW";
+    color: yellow;
+}
+body > p:nth-last-of-type(1):hover {
+    font-style: italic;
+}
